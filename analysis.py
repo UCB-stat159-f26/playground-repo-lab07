@@ -17,11 +17,15 @@ from pathlib import Path
 DATA_PATH = Path(__file__).parent / "data" / "sample.csv"
 
 
+
 def load_data(path=DATA_PATH):
     with open(path, newline="") as f:
         reader = csv.DictReader(f)
         return list(reader)
 
+def testchange():
+    return 0
+#hi changing file
 
 def summarize(rows):
     scores = [float(r["exam_score"]) for r in rows]
