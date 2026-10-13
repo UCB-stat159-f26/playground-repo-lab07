@@ -3,6 +3,8 @@
 Welcome! This repo exists so you can practice **forking, cloning, and contributing**
 without the stress of potentially breaking something.
 
+Adding a change here.
+
 ## What's in here
 
 This repo simulates a tiny, real-ish data science project:
@@ -12,11 +14,26 @@ This repo simulates a tiny, real-ish data science project:
 - `.gitignore` — a working example of what to keep out of version control
 - `LICENSE` — so you can see how licensing renders on a repo's landing page
 
-Feel free to explore the strucure of the repo before diving into the exercise below.
+Feel free to explore the structure of the repo before diving into the exercise below.
+
+## Getting Started
+
+### Install Dependencies
+
+- Install Python and the required packages for `analysis.py`.
+- Install R and the required packages for `analysis.R`.
+
+### Run the Analysis
+
+Run the Python analysis script:
+
+```bash
+python analysis.py
+```
 
 ## Your task
 
-Follow the checklist in [`CONTRIBUTING.md`](CONTRIBUTIONS.md) to fix a few
+Follow the checklist in [CONTRIBUTING.md](./CONTRIBUTING.md) to fix a few
 small issues in this README and push your changes to your fork.
 
 ## Data
